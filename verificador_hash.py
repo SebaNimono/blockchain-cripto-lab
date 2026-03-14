@@ -16,8 +16,8 @@ Uso:
 Ejemplo:
     python verificador_hash.py mensaje.txt mensaje.txt.dec.txt
 
-Autor: <TU NOMBRE>
-Fecha: <FECHA>
+Autor: Sebastián Tralma
+Fecha: 14/03/2026
 """
 
 import hashlib

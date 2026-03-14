@@ -114,7 +114,7 @@ def cifrar_archivo(ruta_archivo, key):
 
     # Paso 7: Obtener el IV y retornar
     if cipher is None or cyphertext is None:
-        print("  ❌ No se pudo cifrar. Completa los TODO en cifrar_archivo().")
+        print(" No se pudo cifrar. Completa los TODO en cifrar_archivo().")
         return None, None
 
     iv = cipher.iv
