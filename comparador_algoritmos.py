@@ -166,7 +166,7 @@ def mostrar_tabla_comparativa(resultados):
 
     print(f"║  {'Integridad verificada':<30} ", end="")
     for r in resultados:
-        estado = "Sí" if r["integridad"] else "❌ No"
+        estado = "Si" if r["integridad"] else "[X] No"
         print(f"│ {estado:>10} ", end="")
     print("║")
 
